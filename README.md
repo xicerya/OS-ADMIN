@@ -24,13 +24,13 @@ Hal - hal utama yang perlu disiapkan dalam pembuatan Web Server :
 
 # C. Langkah - Langkah Membuat Web Server :
 
-1. Instalasi Ubuntu Server
+# - Instalasi Ubuntu Server
 Download dan instalasikan Ubuntu Server di ubuntu.com/download/server
 
-2. Update Sistem
+# - Update Sistem
 Jalankan perintah sudo apt update untuk memastikan sistem diperbarui.
 
-3. Instalasi Web Server (Apache)
+# - Instalasi Web Server (Apache)
 
 •	Buka terminal dan jalankan perintah berikut :
 sudo apt install apache2
@@ -39,7 +39,7 @@ sudo apt install apache2
 sudo systemctl start apache2
 sudo systemctl enable apache2
 
-4. Instalasi Database Server MariaDB
+# - Instalasi Database Server MariaDB
 
 •	Instal Database Server MariaDB
 sudo apt install mariadb-server (untuk MariaDB)
@@ -48,13 +48,15 @@ sudo apt install mariadb-server (untuk MariaDB)
 
 Untuk MariaDB: sudo mysql_secure_installation
 
-5. Instalasi PHP
+# - Instalasi PHP
 
 •	Install PHP dan modul yang diperlukan, lalu restart Apache untuk menerapkan perubahan:
 sudo apt install php libapache2-mod-php php-mysql
 sudo systemctl restart apache2
 
-6. Instalasi SSH (Secure Shell) biasanya sudah diinstal di Ubuntu Server secara default. Untuk memeriksa apakah SSH sudah terinstal, bisa jalankan command ssh -V. Jika SSH sudah terinstal, akan ada versi SSH yang berjalan.
+# - Instalasi SSH (Secure Shell)
+
+Biasanya sudah diinstal di Ubuntu Server secara default. Untuk memeriksa apakah SSH sudah terinstal, bisa jalankan command ssh -V. Jika SSH sudah terinstal, akan ada versi SSH yang berjalan.
 
 # D. Kesimpulan
 Dalam Progress Final Project kali ini, saya telah melakukan instalasi fitur-fitur yang akan diperlukan untuk mengelola situs web secara dinamis di Ubuntu Server, seperti Apache, MariaDB, PHP, dan SSH. Meskipun ada beberapa masalah/error yang muncul selama proses instalasi. Saat ini, saya sedang menjalani tahap awal dalam pengembangan situs web dinamis ini dan akan terus mengembangkan-nya dan mengoptimalkan-nya, sehingga bisa mencapai tujuan proyek dengan baik. Aamiin. Kedepan saya akan membuat sebuah Web Server yang berisikan Musik dan Gambar dari vokalis favorit saya yaitu Ari Lasso (semoga bisa).
