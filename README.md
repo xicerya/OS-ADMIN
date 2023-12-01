@@ -24,8 +24,8 @@ Hal - hal utama yang perlu disiapkan dalam pembuatan Web Server :
 
 # C. Langkah - Langkah Membuat Web Server :
 
-# - Instalasi Ubuntu Server
-Download dan instalasikan Ubuntu Server di ubuntu.com/download/server
+# - Instalasi Ubuntu
+Download dan instalasikan Ubuntu di ubuntu.com/download
 
 # - Update Sistem
 Jalankan perintah sudo apt update untuk memastikan sistem diperbarui.
@@ -59,4 +59,4 @@ sudo systemctl restart apache2
 Biasanya sudah diinstal di Ubuntu Server secara default. Untuk memeriksa apakah SSH sudah terinstal, bisa jalankan command ssh -V. Jika SSH sudah terinstal, akan ada versi SSH yang berjalan.
 
 # D. Kesimpulan
-Dalam Progress Final Project kali ini, saya telah melakukan instalasi fitur-fitur yang akan diperlukan untuk mengelola situs web secara dinamis di Ubuntu Server, seperti Apache, MariaDB, PHP, dan SSH. Meskipun ada beberapa masalah/error yang muncul selama proses instalasi. Saat ini, saya sedang menjalani tahap awal dalam pengembangan situs web dinamis ini dan akan terus mengembangkan-nya dan mengoptimalkan-nya, sehingga bisa mencapai tujuan proyek dengan baik. Aamiin. Kedepan saya akan membuat sebuah Web Server yang berisikan Musik dan Gambar dari vokalis favorit saya yaitu Ari Lasso (semoga bisa).
+Dalam Progress Final Project kali ini, saya telah melakukan instalasi fitur-fitur yang akan diperlukan untuk mengelola situs web secara dinamis di Ubuntu Server, seperti Apache, MariaDB, PHP, dan SSH. Meskipun ada beberapa masalah/error yang muncul selama proses instalasi. Saat ini, saya sedang menjalani tahap awal dalam pengembangan situs web dinamis ini dan akan terus mengembangkan-nya dan mengoptimalkan-nya, sehingga bisa mencapai tujuan proyek dengan baik. Aamiin. Kedepan saya akan membuat sebuah Web Server yang berisikan Musik dan Gambar dari vokalis favorit saya yaitu Ari Lasso (semoga bisa, jika tidak sebisanya saja).
