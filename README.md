@@ -24,13 +24,13 @@ Hal - hal utama yang perlu disiapkan dalam pembuatan Web Server :
 
 # C. Langkah - Langkah Membuat Web Server :
 
-# - Instalasi Ubuntu
-Download dan instalasikan Ubuntu di ubuntu.com/download
+# 1. Instalasi Ubuntu
+Download dan instal Ubuntu di ubuntu.com/download
 
-# - Update Sistem
+# 2. Update Sistem
 Jalankan perintah sudo apt update untuk memastikan sistem diperbarui.
 
-# - Instalasi Web Server (Apache)
+# 4. Instalasi Web Server (Apache)
 
 •	Buka terminal dan jalankan perintah berikut :
 sudo apt install apache2
@@ -39,7 +39,7 @@ sudo apt install apache2
 sudo systemctl start apache2
 sudo systemctl enable apache2
 
-# - Instalasi Database Server MariaDB
+# 5. Instalasi Database Server MariaDB
 
 •	Instal Database Server MariaDB
 sudo apt install mariadb-server (untuk MariaDB)
@@ -48,15 +48,19 @@ sudo apt install mariadb-server (untuk MariaDB)
 
 Untuk MariaDB: sudo mysql_secure_installation
 
-# - Instalasi PHP
+# 6. Instalasi PHP
 
 •	Install PHP dan modul yang diperlukan, lalu restart Apache untuk menerapkan perubahan:
 sudo apt install php libapache2-mod-php php-mysql
 sudo systemctl restart apache2
 
-# - Instalasi SSH (Secure Shell)
+# 7. Instalasi SSH (Secure Shell)
 
 Biasanya sudah diinstal di Ubuntu Server secara default. Untuk memeriksa apakah SSH sudah terinstal, bisa jalankan command ssh -V. Jika SSH sudah terinstal, akan ada versi SSH yang berjalan.
 
+# 8. Instalasi WinSCP untuk Memasukkan HTML & CSS
+
+Download dan instal di winscp.net/eng/downloads.php
+
 # D. Kesimpulan
-Dalam Progress Final Project kali ini, saya telah melakukan instalasi fitur-fitur yang akan diperlukan untuk mengelola situs web secara dinamis di Ubuntu Server, seperti Apache, MariaDB, PHP, dan SSH. Meskipun ada beberapa masalah/error yang muncul selama proses instalasi. Saat ini, saya sedang menjalani tahap awal dalam pengembangan situs web dinamis ini dan akan terus mengembangkan-nya dan mengoptimalkan-nya, sehingga bisa mencapai tujuan proyek dengan baik. Aamiin. Kedepan saya akan membuat sebuah Web Server yang berisikan Musik dan Gambar dari vokalis favorit saya yaitu Ari Lasso (semoga bisa, jika tidak sebisanya saja).
+Dalam Progress Final Project kali ini, saya telah melakukan instalasi fitur-fitur yang akan diperlukan untuk mengelola situs web secara dinamis di Ubuntu Server, seperti Apache, MariaDB, PHP, dan SSH. Meskipun ada beberapa masalah/error yang muncul selama proses instalasi. Saat ini, saya sedang menjalani tahap awal dalam pengembangan situs web dinamis ini dan akan terus mengembangkan-nya dan mengoptimalkan-nya, sehingga bisa mencapai tujuan proyek dengan baik. Aamiin. Kedepan saya akan membuat sebuah Web Server yang berisikan Musik Spotify dan Gambar dari vokalis favorit saya yaitu Ari Lasso.
