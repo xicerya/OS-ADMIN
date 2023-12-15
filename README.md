@@ -11,13 +11,14 @@ Web server adalah perangkat lunak atau perangkat keras yang melayani permintaan 
 
 # B. Persiapan Pembuatan Web Server
 Hal - hal utama yang perlu disiapkan dalam pembuatan Web Server :
-•	Sistem Operasi : Instalasi dan konfigurasi sistem operasi server, seperti Ubuntu Server, CentOS, atau Windows Server.
 
-•	Perangkat Lunak Web Server : Pilih web server seperti Apache, Nginx, dll. Kita instalasikan serta konfigurasikan sesuai kebutuhan.
+•	Sistem Operasi : Instalasi dan konfigurasi sistem operasi server, pada kali ini menggunakan Ubuntu Server.
 
-•	Database Server : Jika diperlukan, instalasikan dan konfigurasikan database server seperti MySQL, MariaDB, dll.
+•	Perangkat Lunak Web Server : Pilih web server yang pada kali ini kita gunakan Apache.
 
-•	Bahasa Pemrograman & Framework : Persiapkan bahasa pemrograman seperti PHP, Python, dll serta framework yang diperlukan untuk pengembangan aplikasi web.
+•	Database Server : Jika diperlukan, instalasikan dan konfigurasikan database server yang pada kali ini kita gunakan MariaDB.
+
+•	Bahasa Pemrograman & Framework : Persiapkan bahasa pemrograman yang pada kali ini kita gunakan PHP.
 
 •	Keamanan : Terapkan tindakan keamanan, termasuk pengaturan firewall, pembaruan perangkat lunak dan penggunaan SSL/TLS.
 
@@ -36,23 +37,23 @@ Jalankan perintah sudo apt update untuk memastikan sistem diperbarui.
 sudo apt install apache2
 
 •	Mulai dan aktifkan Apache :
-sudo systemctl start apache2
-sudo systemctl enable apache2
+  - sudo systemctl start apache2
+  - sudo systemctl enable apache2
 
 # 5. Instalasi Database Server MariaDB
 
 •	Instal Database Server MariaDB
-sudo apt install mariadb-server (untuk MariaDB)
+  - sudo apt install mariadb-server (untuk MariaDB)
 
 •	Jalankan perintah keamanan untuk mengamankan database :
 
-Untuk MariaDB: sudo mysql_secure_installation
+  - Untuk MariaDB: sudo mysql_secure_installation
 
 # 6. Instalasi PHP
 
 •	Install PHP dan modul yang diperlukan, lalu restart Apache untuk menerapkan perubahan:
-sudo apt install php libapache2-mod-php php-mysql
-sudo systemctl restart apache2
+  - sudo apt install php libapache2-mod-php php-mysql
+  - sudo systemctl restart apache2
 
 # 7. Instalasi SSH (Secure Shell)
 
