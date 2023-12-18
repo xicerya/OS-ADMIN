@@ -97,3 +97,9 @@ Berikut step by step memasukkan HTML & CSS di WinSCP :
 
 # E. Kesimpulan
 Dalam Progress Final Project kali ini, saya telah melakukan sejumlah langkah yang membuahkan hasil sesuai harapan. Tema web server yang saya ambil adalah biografi tokoh yang berfokus pada musik dengan menampilkan embeb link Spotify dan gambar dari vokalis favorit saya, yaitu **Ari Lasso**. Telah berhasil diimplementasikan dengan baik. Selama proses ini, saya berhasil mengatasi kendala yang muncul, terutama terkait dengan penggantian alamat IP agar dapat diakses melalui browser setelah menginstall Apache dengan command `sudo nano 01-netcfg.yaml`. Keberhasilan ini memastikan bahwa web server dapat diakses dengan lancar. Hasil akhir proyek mencakup penyelarasan HTML & CSS untuk merinci biografi tokoh dan menghadirkan tampilan yang informatif. Kedepannya, proyek ini akan terus dikembangkan untuk meningkatkan fungsionalitas.
+
+# F. Refrensi Pembuatan Web Server
+Terdapat refrensi yang saya dapat dalam pembuatan Web Server, yaitu :
+1. Channel YouTube : **Abstract programmer**
+   > Link Video : https://youtu.be/PZAT0tIwYh4?si=wrRMgQI20tAwcUQL
+1. ChatGPT
