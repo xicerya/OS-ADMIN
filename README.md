@@ -92,7 +92,7 @@ Berikut step by step memasukkan HTML & CSS di WinSCP :
 1. Kemudian kita masukkan command `ls` lagi
 1. Terakhir, masukkan IP Address dari Server kita, yang kebetulan IP Address kita kali ini adalah : `192.168.1.20`
 1. Dan akan muncul halaman website dari folder file HTML & CSS yang sudah kita edit di VS Code.
-   <img width="69" alt="Untitled" src="https://github.com/xicerya/OS-ADMIN/assets/145538720/96522ecb-e547-48c0-bd92-d24fc446f244">
+   <img width="1280" alt="Screenshot 2023-12-18 210901" src="https://github.com/xicerya/OS-ADMIN/assets/145538720/49829e1e-d23f-4da1-954a-31613d7da274">
 1. **SELESAI**
 
 
@@ -102,5 +102,6 @@ Dalam Progress Final Project kali ini, saya telah melakukan sejumlah langkah yan
 # F. Refrensi Pembuatan Web Server
 Terdapat refrensi yang saya dapat dalam pembuatan Web Server, yaitu :
 1. Channel YouTube : **Abstract programmer**
+   <img width="1280" alt="Screenshot 2023-12-18 205921" src="https://github.com/xicerya/OS-ADMIN/assets/145538720/201141b4-19e9-4b6e-aba3-462695c40054">
    > Link Video : https://youtu.be/PZAT0tIwYh4?si=wrRMgQI20tAwcUQL
 1. ChatGPT
