@@ -92,6 +92,7 @@ Berikut step by step memasukkan HTML & CSS di WinSCP :
 1. Kemudian kita masukkan command `ls` lagi
 1. Terakhir, masukkan IP Address dari Server kita, yang kebetulan IP Address kita kali ini adalah : `192.168.1.20`
 1. Dan akan muncul halaman website dari folder file HTML & CSS yang sudah kita edit di VS Code.
+2. ![Uploading 1920x1080.jpg…]()
 1. **SELESAI**
 
 
